@@ -1,0 +1,26 @@
+.overall_field{
+	text-align: center;
+	margin-top: 10%;
+}
+
+.field{
+    position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.field + .field{
+	margin-left: 10px;
+}
+
+.field_buttons{
+	position: relative;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.body{
+	color: #fff
+	margin: 100;
+	padding: 100;
+}

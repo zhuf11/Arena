@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="draft.css">
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <form id='draft_form' action="" method="get">
+      <div class="countdown ml-3 mt-3">
+        <label id = "select_hero_text">Player 1 Select Hero: </label>
+        <select id = "hero">
+          <option id = "P1" value ="P1">P1</option>
+          <option value ="P2" selected>P2</option>
+          </select> 
+      </div>
+      <div id = 'curr_hero_name' class="ml-3"></div>
+      <div id = 'curr_hero_health_and_mana' class="ml-3"></div>
+      <div id = 'curr_hero_armor_and_ward' class="ml-3"></div>
+      <div id = 'curr_hero_speed' class="ml-3"></div>
+      <div id = 'curr_hero_passive' class="ml-3"></div>
+
+      <div class="ml-3 mt-3">Abilities:</div>
+      <div id = 'curr_hero_abilities' class="ml-3"></div>
+      
+      <input type ="button" id = 'draft_button' value = "Draft" onclick = "draft_hero()" class="ml-3 mt-3" </input>
+      <input type ="button" id = 'random_draft_button' value = "Randomly Draft Remaining Heroes" onclick = "random_draft_hero()" </input>
+
+    <div> </div>
+      
+    <div id = 'player1_drafted' class="ml-3 mt-3"> Player 1 Drafted</div>
+    <div class="ml-3"> - - - </div>
+    <div id = 'player2_drafted' class="ml-3"> Player 2 Drafted</div>
+
+    <div> </div>
+    
+    <label id = "p1_h1_name" class="ml-3 mt-3" >P1_H1 Position: </label>
+    <select id = "p1_h1_pos">
+      <option value = 2 selected>Front</option>
+      <option value = 1>Middle</option>
+      <option value = 0>Back</option>
+    </select> 
+
+    <label id = "p1_h2_name">P1_H2 Position: </label>
+    <select id = "p1_h2_pos">
+      <option value = 2>Front</option>
+      <option value = 1 selected>Middle</option>
+      <option value = 0>Back</option>
+    </select> 
+
+    <label id = "p1_h3_name">P1_H3 Position: </label>
+    <select id = "p1_h3_pos">
+      <option value = 2>Front</option>
+      <option value = 1>Middle</option>
+      <option value = 0 selected>Back</option>
+    </select> 
+
+    <div> </div>
+    
+    <label id = "p2_h1_name" class="ml-3">P2_H1 Position: </label>
+    <select id = "p2_h1_pos">
+      <option value = 5 selected>Front</option>
+      <option value = 6>Middle</option>
+      <option value = 7>Back</option>
+    </select> 
+
+    <label id = "p2_h2_name">P2_H2 Position: </label>
+    <select id = "p2_h2_pos">
+      <option value = 5>Front</option>
+      <option value = 6 selected>Middle</option>
+      <option value = 7>Back</option>
+    </select> 
+
+    <label id = "p2_h3_name">P2_H3 Position: </label>
+    <select id = "p2_h3_pos">
+      <option value = 5>Front</option>
+      <option value = 6>Middle</option>
+      <option value = 7 selected>Back</option>
+    </select> 
+
+<p type = "button" id = "battle_btn" class="ml-3 mt-3"><a href="Arena.html">Battle!</a></p>
+<script src="hero_abilities.js"></script>
+<script src="draft.js"></script>
+
+</body>
+</html>
