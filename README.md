@@ -63,6 +63,7 @@ Based off this damage:
 ### Future Potential Ideas:
 1. Implementing an AI for a true single-player mode using a utility system. 
 2. Increase the number of heroes to 4 per team. Change drafting to include a "ban" phase before picking heroes.
-3. Make combat more strategic by adding "flanking" spaces in addition to the 8 field tiles present. Heroes can move to a side "flanking" space to then move behind or next to the enemy team's backline.
-4. Add equipment - each hero has a slot for a weapon, slot for armor, and slot for accessory. Equipment provides additional effects, passives, as well as actives.
-5. Add additional heroes.
+3. Make UI less text based and adding some sprites.
+4. Make combat more strategic by adding "flanking" spaces in addition to the 8 field tiles present. Heroes can move to a side "flanking" space to then move behind or next to the enemy team's backline.
+5. Add equipment - each hero has a slot for a weapon, slot for armor, and slot for accessory. Equipment provides additional effects, passives, as well as actives.
+6. Add additional heroes.
