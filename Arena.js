@@ -950,7 +950,7 @@ function set_initial_position(){
 
 		var to_hide = document.getElementById('field_position' + pos).getElementsByClassName('hero');
 		for (var i = 0; i < to_hide.length; i++){
-			if(to_hide[i].innerText == "__"){
+			if(to_hide[i].innerHTML == "<div class = 'hero'><h1>__</h1></div>" || to_hide[i].innerHTML == "<h1>__</h1>"){
 				//console.log(to_hide[i]);
 				to_hide[i].style.display = 'none';
 			}
@@ -1796,7 +1796,7 @@ function moveTo(hero, start, end, ability){
 
 			var to_show = document.getElementById('field_position' + start).getElementsByClassName('hero');
 			if (to_show.length == 1){
-				to_show[0].innerText = "__";
+				to_show[0].innerHTML = "<h1>__</h1>";
 				to_show[0].classList.add('hero');
 				to_show[0].style.display = 'block';
 				//to_show[0].onmouseover = function() {display_field_effect_info(start)};
