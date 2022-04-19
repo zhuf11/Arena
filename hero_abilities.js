@@ -152,7 +152,7 @@ const empowered_ritual_dagger = new Ability("*Ritual Dagger*", 18, "Physical", 3
 const empowered_crimson_hex = new Ability("*Crimson Hex*", 0, "Debuff", 3, "row", [new Effect("Vulnerable", .3, 2, null, false, false), new Effect("Anti-Heal", .7, 2, null, false, false)], 3, 10)
 
 //Kess Abilities:
-const double_daggers = new Ability("Double Daggers", 13, "Physical", 2, 1, [new Effect("Cantrip", 0, 0, false), new Effect("Piercing", .3, 0, false)], 0, 0)
+const double_daggers = new Ability("Double Daggers", 13, "Physical", 2, 1, [new Effect("Cantrip", 0, 0, false), new Effect("Piercing", .3, 0, false),  new Effect("Rogue's Mementos", 0, 0)], 0, 0)
 const cheap_shot = new Ability("Cheap Shot", 23, "Physical", 2, 1, [new Effect("Increase Damage If Target Has Debuff", .2, 0, false), new Effect("Increase Damage If Target Has Stun, Root, Crippled", .25, 0, false)], 1, 0)
 const vanishing_powder = new Ability("Vanishing Powder", 0, 'Self Buff', 0, 0, [new Effect("Change Speed", 2, 1, null, true, false), new Effect("Self Stealth", 0, 1, null, true, true), new Effect('Move Self', 1, 0, true)], 3, 15)
 const tumble = new Ability("Tumble", 0, "Buff", 0, 0, [new Effect('Self Elusive', .5, 1, null, true, false), new Effect("Cantrip", 0, 0, false), new Effect("Move Self", 1, 0, true)], 2, 0)
@@ -573,6 +573,10 @@ function createDescr(name, magnitude, effects_list){
 	else if (name == 'Root'){
 		descr = "Target cannot move";
 	} 
+
+	else if (name == "Rogue's Mementos"){
+		descr = "Kess starts with 2 daggers. Each use of Double Daggers throws a dagger into the target, consuming 1 dagger. When an enemy dies, Kess retrieves all daggers in the target."
+	}
 
 	else if (name == 'Magic Damage'){
 		descr = "This ability deals an additional " + magnitude + " Magic damage";
