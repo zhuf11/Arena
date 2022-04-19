@@ -301,7 +301,7 @@ Dara.passive_descr = "Dara has no cap on her maximum Mana. Dara gains Mana Regen
 Kythra.passive_descr = "Kythra battles with the Darkness within herself. Using Kythra's abilities (10 Darkness/ability, Angelic Ascent decreases Darkness by 15) and receiving damage increases her Darkness meter (50% of health damage taken converted to darkness). Maximum Darkness: 100. At 50 and 100 Darkness, gain 10 Max HP. At 25, 50, 75, and 100 Darkness, 1 of Kythra's abilities is upgraded." 
 Cassia.passive_descr = "All of Cassia's damaging abilities add a stack of Frostbite that persists for 2 turns and is refreshed by each new stack: (1 Stack: -1 Speed, 2 Stacks: -2 Speed, 3 Stacks: -3 Speed, 4 Stacks: consume all stacks and Freeze 1). If target is frozen, cannot gain Frostbite stacks."
 
-const list_of_all_heroes = [Leif, Forsyth, Kane, Rivelle, Zeth, Athena, Mae, Nox, Vulshok, Jakob, Kess, Azrael, Kalia, Octavius, Arcturus, Esme, Dara, Kythra, Draug, Scion, Cassia, Azura];
+const list_of_all_heroes = [Leif, Forsyth, Kane, Rivelle, Zeth, Athena, Mae, Nox, Vulshok, Jakob, Kess, Azrael, Octavius, Arcturus, Esme, Dara, Kythra, Draug, Scion, Cassia, Azura];
 
 function createDescr(name, magnitude, effects_list){
 	//console.log("name: " + name);
