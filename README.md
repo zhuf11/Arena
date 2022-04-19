@@ -2,7 +2,7 @@
 
 Arena is a Darkest Dungeon-inspired turn based PVP game started during winter break 2021. Players draft teams of 3 heroes each from a pool of 20 heroes - every hero has its own unique passive and set of 4 abilities. The goal is to defeat the enemy team by reducing the health of their heroes to 0. 
 
-** Also included Arena Ideas.xlsx, which is a spreadsheet containing potential ideas of 70 other heroes and other ideas. **
+** Also included Arena Ideas.xlsx, which is a spreadsheet containing potential ideas of 70 other heroes. **
 
 ### Combat System:
 Every hero has X base attributes:
