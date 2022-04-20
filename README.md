@@ -59,6 +59,9 @@ Based off this damage:
 3. Archers, Mages, and Enchanters have the lowest effective health - take 80 damage (~3 attacks)
 4. Ranged (3+ Range) attacks deal ~20% less damage than 2 Range attacks. Fighters typically die in 4 attacks, and fighters would have to take 1 turn to move before being in range to attack an Ranged enemy, meaning Ranged fighters get 5 attacks to deal the same damage that Fighters have 4 turns to do.
 
+Scaling:
+- Some heroes are better at the beginning of the game - Dara, for example, has abilities that scale with current Mana and her Mana is directly affected by how many teammates she has, she gets weaker as the battle goes on.
+- Other heroes improve as the game goes on - Kythra's passive ensures the longer she survives, the more powerful her abilities become. Other heroes like Nox have abilities that are empowered as enemies have lower life. Their early game is weaker compared to other heroes but they get more powerful later on.
 
 ### Future Potential Ideas:
 1. Implementing an AI for a true single-player mode using a utility system. 
